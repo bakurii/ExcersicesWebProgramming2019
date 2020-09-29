@@ -1,0 +1,47 @@
+body {
+	font-family: trebuchet ms;
+}
+
+.navi {
+	float: left;
+	padding-bottom: 400px;
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, .5);
+	margin-right: 50px;
+}
+
+ul {
+
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	float: left;
+	display: block;
+	
+}
+
+li {
+	padding: 10px;
+	padding-right: 60px;
+	box-shadow: 2px 3px 6px rgba(0, 0, 0, .5);
+	
+}
+
+.alaosa {
+	background-color: white;
+	
+	
+}
+
+
+
+.pic {
+	float: right;
+}
+
+.yhteystiedot {
+	padding-left: 45px;
+
+}
+
+
+
