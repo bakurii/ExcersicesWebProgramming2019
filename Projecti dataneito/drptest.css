@@ -1,0 +1,63 @@
+.navigation {
+	
+}
+
+a {
+	text-decoration: none;
+	color: white;
+}
+
+
+ul {
+	/*background-color: #b8b894;*/
+	background-color: #000000;
+	list-style-type: none;
+	text-shadow: 2px 2px 2px #ffbb99;
+	margin: 0px;
+	font-family: verdana;
+}
+
+li {
+	display: inline-block;
+	padding: 20px;
+	box-shadow: 5px 5px 5px #af2d2f;
+}
+
+li:focus-within a {
+	outline: none;
+}
+
+li:hover,
+li:focus-within {
+	cursor: pointer;
+	background-color: #ff8080;
+}
+
+
+.dropdown {
+	left: 133px;
+	padding-left: 0px;
+}
+
+ul li ul {
+	visibility: hidden;
+	position: absolute;
+	margin-top: 1.2rem;
+	display: none;
+	
+}
+
+
+
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover {
+	visibility: visible;
+	opacity: 1;
+	display: block;
+}
+
+ul li ul li{
+	clear: both;
+	/*content: 20px;*/
+}

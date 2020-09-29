@@ -1,0 +1,41 @@
+
+.yhteydenotto {
+	margin: 1px solid #000000;
+	display: block;
+	position: relative;
+	left: 15%;
+	width: 30%;
+}
+
+input[type=text], textarea {
+	width: 100%;
+	padding: 12px;
+	border: 1px solid #000000;
+	border-radius: 4px;
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+}
+
+input[type=submit] {
+	background-color: #ff7b66;
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 2px;
+	cursor: pointer;
+}
+
+input[type=submit]:hover {
+	background-color: #af2d2f;
+}
+
+.lomake {
+	width: 60%;
+	border-radius: 5px;
+	background-color: linear-gradient(to bottom, #ff7b66 19%, #ff9999 141%);
+	padding: 20px;
+	position: relative;
+	left: 200px;
+}
